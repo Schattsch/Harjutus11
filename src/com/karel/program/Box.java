@@ -2,7 +2,7 @@ package com.karel.program;
 
 import java.util.ArrayList;
 
-public class Box {
+public class Box implements ToBeStored {
     private double maximumWeight;
     private ArrayList<ToBeStored> items;
 
